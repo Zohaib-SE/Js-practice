@@ -23,13 +23,18 @@ const anotherId = Symbol('123')
 
 // Stack (Primitive), Heap (Non-Primitive)
 
+// Stack Memory example
+
 let myInstaName = "qalbaymomin"
 
 let anotherName = myInstaName
 anotherName = "zohaibali"
 
-console.log(myInstaName);
-console.log(anotherName);
+console.log(myInstaName); // Expected Output: qalbaymomin 
+console.log(anotherName); // Expected Output: zohaibali
+
+
+// Heap Memory example
 
 let userOne = {
     email : "abc@gmail.com",
