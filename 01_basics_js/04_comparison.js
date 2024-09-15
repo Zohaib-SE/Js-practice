@@ -31,4 +31,3 @@ console.log(undefined >= 0);
 console.log("2" === 2); // it generates false, the reason is that both value's data types are different
 
 /*  ALL THESE KIND OF COMPARISONS AND CHECK ARE SHOULD BE AVOID. JUST WRITE CLEAR CODE */
-

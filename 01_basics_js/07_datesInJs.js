@@ -55,6 +55,26 @@ let newDate = new Date()
 
 // console.log(`Date of the day ${newDate.getDay()} and the time is ${newDate.getTime()} `);
 
-console.log(newDate.toLocaleString('default', {weekday: "long",
-
+console.log(newDate.toLocaleString('default', {
+    weekday: "long",
+    month: "numeric",
 }))
+// Expected Output: 9 Wednesday
+
+console.log(newDate.toLocaleString('default', {
+    weekday: "long",
+    month: "long",
+}))
+// Expected Output: September Wednesday
+
+console.log(newDate.toLocaleString('default', {
+    weekday: "long",
+    month: "narrow",
+}))
+// Expected Output: Wednesday (month: S)
+
+console.log(newDate.toLocaleString('default', {
+    weekday: "long",
+    month: "2-digit",
+}))
+// Expected Output: 09 Wednesday 

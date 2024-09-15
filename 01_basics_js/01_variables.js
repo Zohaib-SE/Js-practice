@@ -1,6 +1,6 @@
 const accountId = 212121
 let accountEmail = "@gmail.com"
-var accountCity = "LHR" /*prefer not to usr var bcz of issue of block scope and functional scope*/
+var accountCity = "LHR" /*prefer not to use var bcz of issue of block scope and functional scope*/
 accountPassword = "hfhfhfh"
 
 let accountState;
