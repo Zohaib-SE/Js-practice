@@ -37,3 +37,4 @@ console.log("B", myArr);
 const myn2 = myArr.splice(1, 3) // splice method manipulate the original array 
 console.log("C", myArr);
 console.log(myn2);
+
